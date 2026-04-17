@@ -76,7 +76,12 @@ poligono.exe
 
 ```
 .
-└── poligono_opengl.c   # Código-fonte principal (comentado)
+└── capturas de tela/       # Capturas de tela da aplicação rodando
+└── Atividade prática.pdf   # PDF contendo o enunciado do trabalho
+└── poligono                # Código compilado (para sistemas linux)
+└── poligono_opengl.c       # Código-fonte principal (comentado)
+└── README.md          
+└── Respostas_atividade...  # Resposta das perguntas feitas no enunciado do trabalho
 ```
 
 ---
