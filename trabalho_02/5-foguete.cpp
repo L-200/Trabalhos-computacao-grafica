@@ -2,7 +2,8 @@
 #include <math.h>
 // para compilar: g++ 5-foguete.cpp -o foguete -lGL -lGLU -lglut -lm && ./foguete
 
-static float angulo = 0.0f;                                                 
+// Mudei o angulo inicial para começar na esquerda do semicirculo
+static float angulo = 180.0f;                                                 
 
 void Bico() {
     glBegin(GL_TRIANGLES);
@@ -52,18 +53,19 @@ void Display(void)
     float py  = 25.0f * sin(rad);
 
     /* Rotacao tangencial:
-       angulo=0   -> px=25, py=0  -> bico aponta para cima   (rot=0)
-       angulo=90  -> px=0,  py=25 -> bico aponta p/ esquerda (rot=90)
-       angulo=180 -> px=-25,py=0  -> bico aponta para baixo  (rot=180) */
-    float rotacao = angulo;
+       angulo=180 -> rotacao=0    -> bico aponta para cima   (esquerda do arco)
+       angulo=90  -> rotacao=-90  -> bico aponta p/ direita  (topo do arco)
+       angulo=0   -> rotacao=-180 -> bico aponta para baixo  (direita do arco) */
+    float rotacao = angulo - 180.0f;
 
     glPushMatrix();
         /* FILO: 3->2->1 na ordem do codigo, mas executado 1->2->3
-           1. foguete ja esta centrado em (0,0), nao precisa de translacao inicial
-           2. rotaciona conforme a tangente ao arco
+           1. centraliza o foguete na origem (translada o centro dos vertices)
+           2. rotaciona no proprio eixo
            3. move para a posicao no arco                                        */
         glTranslatef(px, py, 0.0f);
         glRotatef(rotacao, 0.0f, 0.0f, 1.0f);
+        glTranslatef(-4.0f, -4.5f, 0.0f); /* Centro aproximado do foguete (X=4, Y=4.5) */
 
         Bico();
         Corpo();
@@ -76,9 +78,10 @@ void Display(void)
 
 void Timer(int valor)
 {
-    angulo += 1.0f;
-    if (angulo > 180.0f)
-        angulo = 0.0f;
+    /* Diminui o angulo para fazer a trajetoria da Esquerda para a Direita */
+    angulo -= 1.0f;
+    if (angulo < 0.0f)
+        angulo = 180.0f;
 
     glutPostRedisplay();
     glutTimerFunc(20, Timer, 0);
