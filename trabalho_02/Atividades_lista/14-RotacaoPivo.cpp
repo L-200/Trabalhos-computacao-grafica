@@ -20,12 +20,10 @@ static float currX[N], currY[N];
 #define RAIO_ORBIT  6.0f
 #define PASSO       1.5f        /* graus por frame - pequeno para aprox. Taylor */
 
-// ------------------------------------------------------------
 // Aproximacoes de Taylor para seno e cosseno (angulos pequenos)
 //   sin(t) = aproximadamente t - t^3/6 + t^5/120
 //   cos(t) = aproximadamente 1 - t^2/2 + t^4/24
 // Validas para t pequeno (PASSO em radianos em torno de 0.026 rad)
-// ------------------------------------------------------------
 float aproxSin(float rad)
 {
     float r3 = rad * rad * rad;

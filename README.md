@@ -16,4 +16,14 @@ Aplicação interativa que desenha um polígono regular 2D e permite modificar s
 
 ---
 
+### [Prática 02 — Transformações Geométricas 2D](./Pratica02/)
+
+Exercícios sobre transformações geométricas em OpenGL, divididos em duas partes: atividades dos slides da aula prática (quadrado, rotação direta/inversa, escala e animação do foguete) e exercícios da lista (órbita circular, giro no próprio eixo e pulso de escala, implementados tanto com transformações básicas quanto com operações matriciais manuais).
+
+**Principais conceitos:** `glTranslatef` · `glRotatef` · `glScalef` · ordem FILO · `glPushMatrix`/`glPopMatrix` · matrizes 4×4 *column-major* · `glLoadMatrixf`
+
+> Veja o [README da Prática 02](./Pratica02/README.md) para instruções de compilação e detalhes completos.
+
+---
+
 *Mais trabalhos serão adicionados ao longo da disciplina.*
