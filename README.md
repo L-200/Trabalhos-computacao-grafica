@@ -12,7 +12,7 @@ Aplicação interativa que desenha um polígono regular 2D e permite modificar s
 
 **Principais conceitos:** `GL_POLYGON` · `GL_LINE_LOOP` · `GL_POINTS` · transformações 2D · callbacks GLUT
 
-> Veja o [README do Trabalho 01](./trabalho01/README.md) para instruções de compilação e detalhes completos.
+> Veja o [README do Trabalho 01](./trabalho_01/README.md) para instruções de compilação e detalhes completos.
 
 ---
 
@@ -22,7 +22,7 @@ Exercícios sobre transformações geométricas em OpenGL, divididos em duas par
 
 **Principais conceitos:** `glTranslatef` · `glRotatef` · `glScalef` · ordem FILO · `glPushMatrix`/`glPopMatrix` · matrizes 4×4 *column-major* · `glLoadMatrixf`
 
-> Veja o [README da Prática 02](./Pratica02/README.md) para instruções de compilação e detalhes completos.
+> Veja o [README da Prática 02](./trabalho_02/README.md) para instruções de compilação e detalhes completos.
 
 ---
 
