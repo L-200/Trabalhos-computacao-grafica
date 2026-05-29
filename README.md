@@ -6,7 +6,7 @@ Repositório com as atividades práticas desenvolvidas na disciplina de Computa�
 
 ## 📂 Trabalhos
 
-### [Trabalho 01 — Criação e Manipulação de Polígonos em OpenGL](./trabalho01/)
+### [Trabalho 01 — Criação e Manipulação de Polígonos em OpenGL](./trabalho_01/)
 
 Aplicação interativa que desenha um polígono regular 2D e permite modificar seus atributos em tempo real via teclado: número de vértices, posição, cor de preenchimento, cor do contorno, espessura da borda e modo de exibição.
 
@@ -16,7 +16,7 @@ Aplicação interativa que desenha um polígono regular 2D e permite modificar s
 
 ---
 
-### [Prática 02 — Transformações Geométricas 2D](./Pratica02/)
+### [Prática 02 — Transformações Geométricas 2D](./trabalho_02/)
 
 Exercícios sobre transformações geométricas em OpenGL, divididos em duas partes: atividades dos slides da aula prática (quadrado, rotação direta/inversa, escala e animação do foguete) e exercícios da lista (órbita circular, giro no próprio eixo e pulso de escala, implementados tanto com transformações básicas quanto com operações matriciais manuais).
 
@@ -26,7 +26,7 @@ Exercícios sobre transformações geométricas em OpenGL, divididos em duas par
 
 ---
 
-### [Prática 03 — Visualização 3D em OpenGL](./Pratica06/)
+### [Prática 03 — Visualização 3D em OpenGL](./trabalho_03/)
 
 Implementação de uma câmera virtual interativa e visualização de objetos 3D. Inclui a configuração da matriz de projeção perspectiva, manipulação do observador em órbita utilizando coordenadas esféricas, aplicação de rotações em eixos isolados (X, Y, Z) e a criação de um menu interativo para renderização de primitivas geométricas do GLUT.
 
