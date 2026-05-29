@@ -26,7 +26,7 @@ Exercícios sobre transformações geométricas em OpenGL, divididos em duas par
 
 ---
 
-### [Prática 06 — Visualização 3D em OpenGL](./Pratica06/)
+### [Prática 03 — Visualização 3D em OpenGL](./Pratica06/)
 
 Implementação de uma câmera virtual interativa e visualização de objetos 3D. Inclui a configuração da matriz de projeção perspectiva, manipulação do observador em órbita utilizando coordenadas esféricas, aplicação de rotações em eixos isolados (X, Y, Z) e a criação de um menu interativo para renderização de primitivas geométricas do GLUT.
 
