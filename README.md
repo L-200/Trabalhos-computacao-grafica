@@ -36,4 +36,14 @@ Implementação de uma câmera virtual interativa e visualização de objetos 3D
 
 ---
 
+### [Trabalho 04 — Curvas Paramétricas Clássicas em OpenGL](./trabalho_04/)
+
+Lista de exercícios sobre representações de curvas (explícita, implícita e paramétrica) e técnicas de interpolação/aproximação (polinômio de Lagrange), seguida da implementação prática em OpenGL de um conjunto de curvas paramétricas clássicas: cônicas, cicloides, epi/hipocicloides, Lissajous, espiral de Arquimedes e Bézier cúbica em 2D, além de hélice circular, Lissajous e Nó de Trevo (Trefoil Knot) em 3D.
+
+**Principais conceitos:** representação paramétrica × implícita × explícita · discretização do parâmetro `t` · polinômios de Lagrange · `GL_LINE_STRIP` · razão `R/r` em epi/hipocicloides · condição de fechamento de Lissajous · curvas espaciais (hélice, nó de trevo)
+
+> Veja o [README do Trabalho 04](./trabalho_04/README.md) para instruções de compilação e detalhes completos.
+
+---
+
 *Mais trabalhos serão adicionados ao longo da disciplina.*
