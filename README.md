@@ -46,4 +46,14 @@ Lista de exercícios sobre representações de curvas (explícita, implícita e 
 
 ---
 
+### [Trabalho 05 — Curvas de Bézier Interativas em OpenGL](./trabalho_05/)
+
+Lista de exercícios sobre polinômio cúbico de Hermite, curvas de Bézier, algoritmo de De Casteljau e B-Splines, seguida de quatro projetos práticos interativos: editor livre de curvas de Bézier de grau arbitrário, animação de objeto orientado pela tangente ao longo de uma trajetória cúbica, visualização didática passo a passo do algoritmo de De Casteljau com níveis de interpolação coloridos, e modelagem de pista fechada com múltiplos segmentos cúbicos conectados com continuidade C1.
+
+**Principais conceitos:** polinômios de Bernstein · algoritmo de De Casteljau · continuidade C0 e C1 · espelhamento de alças · orientação pela tangente (`atan2`) · parâmetro global por segmento · `glutTimerFunc` · `glutMotionFunc`
+
+> Veja o [README do Trabalho 05](./trabalho_05/README.md) para instruções de compilação e detalhes completos.
+
+---
+
 *Mais trabalhos serão adicionados ao longo da disciplina.*
