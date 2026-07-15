@@ -56,4 +56,14 @@ Lista de exercícios sobre polinômio cúbico de Hermite, curvas de Bézier, alg
 
 ---
 
+### [Trabalho Final — Modelos de Iluminação em OpenGL](./trabalho_06/)
+
+Aplicação 3D interativa em OpenGL (pipeline fixa / legacy) que implementa e compara três modelos de iluminação - Ambiente, Lambertiano e Blinn-Phong - sobre uma cena com objetos geométricos e um piso, com materiais gerenciados centralmente por categorias. A cena possui uma câmera orbital controlável e luz pontual móvel.
+
+**Principais conceitos:** iluminação ambiente · modelo Lambertiano · modelo Blinn-Phong · normais de vértice/face · câmera orbital 3D · materiais e reflexão especular · pipeline fixa de iluminação
+
+> Veja o [README do Trabalho Final](./trabalho_06/README.md) para instruções de compilação e detalhes completos.
+
+---
+
 *Mais trabalhos serão adicionados ao longo da disciplina.*
