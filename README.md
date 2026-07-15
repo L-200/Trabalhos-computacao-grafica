@@ -63,7 +63,3 @@ Aplicação 3D interativa em OpenGL (pipeline fixa / legacy) que implementa e co
 **Principais conceitos:** iluminação ambiente · modelo Lambertiano · modelo Blinn-Phong · normais de vértice/face · câmera orbital 3D · materiais e reflexão especular · pipeline fixa de iluminação
 
 > Veja o [README do Trabalho Final](./trabalho_06/README.md) para instruções de compilação e detalhes completos.
-
----
-
-*Mais trabalhos serão adicionados ao longo da disciplina.*
